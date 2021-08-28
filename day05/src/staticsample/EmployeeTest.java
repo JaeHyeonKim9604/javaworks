@@ -13,17 +13,17 @@ public class EmployeeTest {
 		e1.setName("김재현");
 		//e1.serialNum++;		// 1증가
 		Employee.serialNum++;
-		System.out.println("사번 : " + e1.serialNum); // 1001
+		System.out.println("사번 : " + Employee.serialNum); // 1001
 		
 		// 두번째 사원
 		e2.setName("왕귀팔");
-		e2.serialNum++;
-		System.out.println("사번 : " + e2.serialNum);
+		Employee.serialNum++;
+		System.out.println("사번 : " + Employee.serialNum);
 		
 		// 세번째 사원
 		e3.setName("양만세");
 		Employee.serialNum++;
-		System.out.println("사번 : " + e3.serialNum);
+		System.out.println("사번 : " + Employee.serialNum);
 	}
 
 }

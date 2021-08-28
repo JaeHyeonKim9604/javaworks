@@ -12,4 +12,12 @@ public class Book {
 	public void showInfo() {
 		System.out.println("책이름 : " + bookName + ", 작가 : " + author);
 	}
+	
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+	
+	public void setAuthor(String author) {
+		this.author = author;
+	}
 }

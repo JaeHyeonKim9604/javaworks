@@ -18,9 +18,12 @@ public class BookArray {
 		
 		
 		// 출력
+		
 		for(int i = 0; i<library.length; i++) {
-			System.out.println(library[i]);
+			library[i].showInfo();
 		}
+		
+		System.out.println();
 		
 		// 향상 for문
 		for(Book book : library) {
