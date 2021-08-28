@@ -1,4 +1,4 @@
-package thissample;
+/*package thissample;
 
 // 클래스를 직접 만들때 public을 붙이지 않음(public이 붙은 클래스는 파일 이름임)
 class Birthday{
@@ -28,4 +28,4 @@ public class ThisTest {
 		System.out.println(dDay); // 메모리 주소
 	}
 
-}
+} */
