@@ -37,9 +37,7 @@ public class DogTest {
 		for(int i = 0; i<doglist.length; i++) {
 			System.out.println(doglist[i].showDogInfo());
 		}
-		
-		System.out.println();
-		
+				
 		System.out.println("향상 for 문");
 		for(Dog dl : doglist) {
 			System.out.println(dl.showDogInfo());

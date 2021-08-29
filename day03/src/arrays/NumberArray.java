@@ -16,6 +16,12 @@ public class NumberArray {
 		numbers[1] = 20;
 		numbers[2] = 30;
 		
+		// 출력(조회)
+		System.out.println("numbers[0] = " + numbers[0]);
+		System.out.println("numbers[1] = " + numbers[1]);
+		System.out.println("numbers[2] = " + numbers[2]);
+		
+		// 배열은 for문과 연동해서 출력
 		for(int i = 0; i<numbers.length; i++) {
 			System.out.println("numbers["+i+"] = "+numbers[i]);	
 		}

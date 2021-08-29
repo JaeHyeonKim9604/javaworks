@@ -1,4 +1,4 @@
-package arraysample;
+package list;
 
 public class Book {
 	private String bookName;
