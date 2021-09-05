@@ -1,4 +1,4 @@
-package customers;
+package customermanage;
 
 public class VIPCustomer extends Customer {
 	private int agentId;	// 전문 상담원 번호(아이디)
@@ -18,11 +18,10 @@ public class VIPCustomer extends Customer {
 		saleRatio = 0.1;
 	}
 	
-	@Override	// 매서드 재정
+	@Override	// 매서드 재정의
 	public int calcPrice(int price) {
 		price -= (int)(price * saleRatio);
 		bonusPoint += (int)(price * bonusRatio);
-		
 		return price;
 	}
 

@@ -13,9 +13,8 @@ class Car{
 class Taxi extends Car {
 	int passenger;	// 승객
 	
-	// super 키워드로 상속 받음
 	public Taxi(String brand, int cc, int passenger) {	// 부모의 매개변수를 포함해서 다 써줘야함
-		super(brand, cc);	// 부모의 변수는 이렇게 
+		super(brand, cc);	// 부모의 변수는 이렇게 super 키워드로 상속 받음
 		this.passenger = passenger;
 	}
 	

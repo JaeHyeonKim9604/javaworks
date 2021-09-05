@@ -9,7 +9,7 @@ public class BookList {
 		// ArrayList에 Book 객체 3개 생성
 		ArrayList<Book> list = new ArrayList<Book>();
 		
-		// book1 인스턴스 생성
+		/*/ book1 인스턴스 생성
 		Book book1 = new Book("자바 프로그래밍", "박은종");
 		Book book2 = new Book("천개의 파랑", "천선란");
 		Book book3 = new Book("천", "천");
@@ -18,6 +18,11 @@ public class BookList {
 		list.add(book1);
 		list.add(book2);
 		list.add(book3);
+		*/
+		
+		list.add(new Book("자바 프로그래밍", "박은종"));
+		list.add(new Book("천개의 파랑", "천선란"));
+		list.add(new Book("천", "천"));
 		
 		// 조회
 		for(int i = 0; i < list.size(); i++) {
