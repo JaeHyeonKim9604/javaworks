@@ -1,6 +1,6 @@
 package intefaceex.calculator;
 
-public class MyCalculator implements Calculator {
+public class MyCalculator implements Calculator {		// 인터페이스를 사용 : implements
 
 	@Override
 	public int add(int n1, int n2) {

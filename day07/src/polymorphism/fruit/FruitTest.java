@@ -1,5 +1,6 @@
 package polymorphism.fruit;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class FruitTest {
@@ -11,6 +12,7 @@ public class FruitTest {
 		System.out.println("========================");
 		System.out.print("선택>");
 		
+		try {
 		int selnum = scan.nextInt();
 		
 		Fruit fruit = null;		// 초기화
@@ -25,9 +27,16 @@ public class FruitTest {
 		}
 		else {
 			System.out.println("지원하지 않는 기능입니다.");
-			return;
+			//return;
 		}
 		fruit.showInfo();
+		}catch(NullPointerException e) {
+			e.getMessage();
+		}catch(InputMismatchException e) {
+			System.out.println("잘못된 입력입니다.");
+		}finally {
+			scan.close();
+		}
 		
 		scan.close();
 	}
