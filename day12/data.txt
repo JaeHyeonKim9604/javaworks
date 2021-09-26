@@ -1,0 +1,4 @@
+Hello! Java!
+안녕 자바~!
+48
+sky

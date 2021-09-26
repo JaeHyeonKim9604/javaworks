@@ -10,7 +10,7 @@ public class BookTest {
 		
 		Book book = new Book(100, "미생1");
 		System.out.println(book);
-		//System.out.println(book.toString());
+		System.out.println(book.toString());
 		
 	}
 	
